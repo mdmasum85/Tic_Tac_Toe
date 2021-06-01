@@ -1,0 +1,254 @@
+button {
+
+  background: none;
+
+  border: 2px solid red;
+  border-radius: 15px;
+  outline: none;
+  color: #fff;
+}
+button:hover {
+  color: #fff;
+  background: red;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+::selection{
+  color: #fff;
+}
+body{
+  background: url('back.jpg');
+   
+}
+.main_com {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50% , 20%);
+}
+.play-area {
+  display: block;
+}
+.play-area section{
+  display: flex;
+  margin-bottom: 1px;
+}
+.play-area section span{
+  display: block;
+  height: 90px;
+  width: 90px;
+  margin: 2px;
+  color: #56baed;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 5px;
+  background: #e4e8e9;
+}
+.name_area {
+  position: relative;
+ 
+}
+.name_board {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.name_board h1 {
+  font-size: 30px;
+  color: #fff;
+  z-index: 2;
+
+}
+.slider {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  background: red;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.result_area {
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 20px;
+  display: none;
+}
+.result_area img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.result_area h1 {
+  font-size: 40px;
+  color: #fff;
+}
+.button_board {
+  display: flex;
+  justify-content: space-between;
+}
+.button_board button {
+  font-size: 30px;
+  padding: 5px;
+  margin: 20px;
+}
+.again_btn {
+  font-size: 30px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.by_by {
+
+
+
+  position: absolute;
+
+  top: 2px;
+  left:2px;
+}
+.by1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.by_by img {
+  width: 50px;
+  border-radius: 70%;
+  z-index: 2;
+  animation: dydy 7s ease infinite;
+}
+@keyframes dydy {
+  0%{
+    opacity: 0;
+    width: 0px;
+  }
+  10%{
+    opacity: 1;
+    width: 50px;
+  }
+  90%{
+    opacity: 1;
+    width: 50px;
+  }
+  100%{
+    opacity: 0;
+    width: 0px;
+  }
+  
+}
+.by_by h1 {
+  position: relative;
+  font-size: 30px;
+  margin-top: 8px;
+  color: #fff;
+  left: -100%;
+  animation: byby 7s ease infinite;
+}
+@keyframes byby {
+  0%{
+    position: relative;
+    opacity: 0;
+    left: -100%;
+  }
+  20%{
+    position: relative;
+    opacity: 1;
+    left: 0%;
+  }
+  80%{
+    position: relative;
+    opacity: 1;
+    left: 0%;
+  }
+  100%{
+    position: relative;
+    opacity: 0;
+    left: -100%;
+  }
+}
+
+.visit {
+  position: absolute;
+  width: 360px;
+  height: 30px;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50% , 50%);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.visit1 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 30px;
+  
+}
+.visit1 h1 {
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  animation:toto 9s ease infinite;
+}
+.visit1 h1 a {
+  outline: none;
+  text-decoration: none;
+  color: #ff1414;
+}
+@keyframes toto {
+  0%{
+    position: relative;
+    opacity: 0;
+   left:400px
+  }
+  30%{
+    position: relative;
+    opacity: 1;
+   left:0px
+  }
+  70%{
+    position: relative;
+    opacity: 1;
+   left:0px
+  }
+  100%{
+    position: relative;
+    opacity: 0;
+   left:-400px
+  }
+}
+
+.crose1 {
+
+  position: absolute;
+
+  top: 5px;
+  right: 15px;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+}
+.crose1:hover {
+  color: red;
+}
+.o_btn {
+  font-size: 50px;
+}
