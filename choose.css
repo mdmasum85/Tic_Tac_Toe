@@ -10,6 +10,7 @@
 .g-signin2 {
 poosition: absulate:
   left: 50%;
+  margin: 100px;
 }
 body{
   background: url('back.jpg');
