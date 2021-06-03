@@ -6,6 +6,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.g-signin2 {
+poosition: absulate:
+  left: 50%;
+}
 body{
   background: url('back.jpg');
    
